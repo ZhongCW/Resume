@@ -4,9 +4,24 @@
 <head> 
 <meta charset="utf-8"> 
 <title>应聘java_钟长文_13739477352</title> 
+  <script>
+    function SetWinHeight(obj)
+    {
+      var win=obj;
+      if (document.getElementById)
+      {
+        if (win && !window.opera)
+        {
+          if (win.contentDocument && win.contentDocument.body.offsetHeight)
+          win.height = win.contentDocument.body.offsetHeight;
+          else if(win.Document && win.Document.body.scrollHeight)
+          win.height = win.Document.body.scrollHeight;
+        }
+      }
+    } 
+  </script>
 </head> 
 <body>
-<!--   <IFRAME width=100% height=100% marginwidth=0 marginheight=0 SRC="http://cv.qiaobutang.com/r/58f46f760cf22ee1bed29eb7" ></IFRAME> -->
-  <script>window.location.href='http://cv.qiaobutang.com/r/58f46f760cf22ee1bed29eb7';</script>
+  <iframe width="778" align="center" height="200" id="win" name="win" onload="Javascript:SetWinHeight(this)" frameborder="0" scrolling="no" src="http://cv.qiaobutang.com/r/58f46f760cf22ee1bed29eb7"></iframe> 
 </body>
 </html>

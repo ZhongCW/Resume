@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	{{content}}
+</body>
+	
+<!-- 51la流量统计 -->
+<script language="javascript" type="text/javascript" src="//js.users.51.la/19196623.js"></script>
+<!-- 使用js隐藏统计流量图标 -->
+<script language="javascript" type="text/javascript">
+        var a = document.getElementsByTagName("a");
+        //alert(a.length)
+        for(var i = 0;i<a.length;i++){
+            if(a[i].title == "51.La 网站流量统计系统"){
+                a[i].style.display = "none"; 
+                break; 
+            }
+        }
+</script>
+</html>
